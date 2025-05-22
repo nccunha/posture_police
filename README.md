@@ -27,6 +27,11 @@ I prefer the side (profile) view because I prioritize monitoring neck projection
 - Simple and practical—no machine learning required
 
 ## Images
+<p align="left">
+  <img src="images/notification.png" alt="Notification">
+  <br>
+  <em></em>
+</p>
 
 
 ## Requirements
