@@ -51,4 +51,5 @@ I prefer the side (profile) view because I prioritize monitoring neck projection
 ## Customization
 
 - Adjust posture detection thresholds in the script to suit your needs.
+- Adjust if you want to use the camera in the left side
 - Notification duration and alert logic can be modified as required.
