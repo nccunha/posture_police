@@ -60,7 +60,7 @@ I prefer the side (profile) view because I prioritize monitoring neck projection
 ## Requirements
 
 - Python 3.11
-- Intel RealSense depth camera (e.g., D415, D435, D455)
+- FRAMOS RealSense depth camera (e.g., D415e, D435e, D455e)
 - Windows OS (for notifications; can be adapted for other platforms)
 - Python packages:
   - `pyrealsense2`
