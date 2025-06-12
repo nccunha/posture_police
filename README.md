@@ -10,10 +10,10 @@ Relying on pixel distances for posture detection is unreliable because user posi
 
 The best camera placement for posture analysis depends on what you want to measure. Here’s a comparison of common options:
 
-| Camera Placement | Best For                        | Typical Features                | ML Feasibility   |
-|------------------|---------------------------------|----------------------------------|------------------|
-| **Side (Profile)** | Posture, head projection, back  | Head projection, back angle      | Excellent        |
-| **Front**        | Symmetry, face, engagement      | Shoulder/hip alignment           | Good, but limited|
+| Camera Placement | Best For                        | Typical Features                 |
+|------------------|---------------------------------|----------------------------------|
+| **Side (Profile)** | Posture, head projection, back  | Head projection, back angle     |
+| **Front**        | Symmetry, face, engagement      | Shoulder/hip alignment           |
 
 I prefer the side (profile) view because I prioritize monitoring neck projection (forward head posture), which is best captured from this angle.
 
@@ -24,13 +24,36 @@ I prefer the side (profile) view because I prioritize monitoring neck projection
 - Monitors key landmarks: shoulders, hips, and ear
 - Detects slouched back, forward head posture, and camera misalignment
 - Sends a Windows desktop notification if poor posture is maintained for 10 seconds
-- Simple and practical—no machine learning required
 
 ## Images
-<p align="left">
-  <img src="images/notification.png" alt="Notification">
+
+
+<p align="center">
+  <img src="images/good_posture.png" alt="good" style="width: 40%;">
   <br>
-  <em></em>
+  <em>Fig. 1 - Good Posture</em>
+</p>
+
+
+<p align="center">
+  <img src="images/forward_head.png" alt="head" style="width: 40%;">
+  <img src="images/bad_posture.png" alt="bad" style="width: 40%;">
+  <br>
+  <em>Fig. 2 - Bad Postures</em>
+</p>
+
+
+
+<p align="center">
+  <img src="images/not_aligned.png" alt="not_aligned" style="width: 40%;">
+  <br>
+  <em>Fig. 3 - Not Aligned</em>
+</p>
+
+<p align="center">
+  <img src="images/notification.png" alt="Notification" >
+  <br>
+    <em>Fig. 4 - Warning Notification</em>
 </p>
 
 
